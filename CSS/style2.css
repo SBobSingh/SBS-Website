@@ -1,0 +1,44 @@
+/* style.css */
+
+/* Global Styles */
+
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  color: #00698f; /* Navy blue headings */
+}
+
+/* Navigation Styles */
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #337ab7; /* Blue links */
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #23527c; /* Darker blue on hover */
+}
+
+/* Section Styles */
+
+section {
+  background-color: #fff; /* White background for sections */
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
